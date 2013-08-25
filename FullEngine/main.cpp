@@ -4,6 +4,7 @@
 // This is the application's starting point, and main game loop
 
 #include <iostream>
+#include "FullConsole.h"
 
 using namespace std;
 
@@ -23,15 +24,6 @@ int Game_Draw()
 
 
 
-
-
-
-static void LogError(char* reporter, int returnCode)
-{
-#if DEBUG_SHOW_ERRORS
-   // print the given error to our console
-#endif
-}
 
 int main()
 {

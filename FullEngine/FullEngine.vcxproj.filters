@@ -15,6 +15,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{ff50e8a2-e9ec-49e2-a3e5-c655cadcd3d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FiniteStateMachine.cpp">
@@ -36,6 +39,9 @@
     </ClInclude>
     <ClInclude Include="State.h">
       <Filter>FSM\State</Filter>
+    </ClInclude>
+    <ClInclude Include="FullConsole.h">
+      <Filter>Console</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

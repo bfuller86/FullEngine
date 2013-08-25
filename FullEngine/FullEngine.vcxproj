@@ -82,6 +82,7 @@
   <ItemGroup>
     <ClInclude Include="config.h" />
     <ClInclude Include="FiniteStateMachine.h" />
+    <ClInclude Include="FullConsole.h" />
     <ClInclude Include="State.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
