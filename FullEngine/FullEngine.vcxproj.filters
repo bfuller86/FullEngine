@@ -18,6 +18,9 @@
     <Filter Include="Console">
       <UniqueIdentifier>{ff50e8a2-e9ec-49e2-a3e5-c655cadcd3d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{226862bd-7aba-490a-8aeb-c244382b3209}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FiniteStateMachine.cpp">
@@ -28,6 +31,12 @@
     </ClCompile>
     <ClCompile Include="State.cpp">
       <Filter>FSM\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Core\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +51,12 @@
     </ClInclude>
     <ClInclude Include="FullConsole.h">
       <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Core\Math</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
